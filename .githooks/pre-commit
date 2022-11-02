@@ -1,8 +1,6 @@
 #!/bin/sh
 
-# C:\Program Files\Git\usr\bin\sh.exe
-
-if [[ -f "./node_modules/" ]]
+if ! [[ -d "./node_modules/" ]]
 then
-  echo "node_modules exist."
+  echo "! node_modules does not exist. Please run 'yarn' and run commit again."
 fi
