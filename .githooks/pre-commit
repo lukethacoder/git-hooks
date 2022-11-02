@@ -2,7 +2,6 @@
 
 # C:\Program Files\Git\usr\bin\sh.exe
 
-
 if [[ -f "/node_modules" ]]
 then
   echo "node_modules exist."
