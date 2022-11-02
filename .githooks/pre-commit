@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# C:\Program Files\Git\usr\bin\sh.exe
+
+echo "hello world"
